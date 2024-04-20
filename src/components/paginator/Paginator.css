@@ -1,0 +1,28 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginator button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .paginator button:focus {
+    outline: none;
+  }
+  
+  .paginator button.orange {
+    background-color: rgb(232, 90, 25);
+    color: #fff;
+  }
+
+  img{
+    height: 18px;
+    width: 18px;
+  }

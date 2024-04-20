@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  
+  .row {
+    display: flex;
+    padding: 0px 0px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px 40px;
+}
+
+.column-title{
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: rgb(234, 234, 234);
+    color: rgb(42, 39, 39);
+  }
+  
+  .column:nth-child(3) {
+    text-align: center;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 0.2px solid rgb(220, 220, 220);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paginator{
+    margin-bottom: 20px;;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pagination-controls select {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .pagination-controls button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:focus {
+    outline: none;
+  }
+
+  .records{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .records select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .records p{
+    margin-right: 10px;
+  }
+
+  .option{
+    border-radius: 5px;
+  }
+
+  .time{
+    color: rgb(42, 39, 39);
+    font-size: small;
+  }
+
+  .column button{
+    background: none;
+    border: none;
+  }
+  .column button img {
+    width: 20px; 
+    height: 20px;
+    cursor: pointer; 
+  }
+  
